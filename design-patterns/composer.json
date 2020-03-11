@@ -1,0 +1,17 @@
+{
+    "name": "kennit/php-design-patterns",
+    "description": "Patrones de diseño en PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kennit Ruz",
+            "email": "kruz@merqueo.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "DesignPatterns\\": "src/"
+        }
+    }
+}
