@@ -8,7 +8,9 @@
             "email": "kruz@merqueo.com"
         }
     ],
-    "require": {},
+    "require": {
+        "phpunit/phpunit": "^9.1"
+    },
     "autoload": {
         "psr-4": {
             "DesignPatterns\\": "src/"

@@ -1,6 +1,6 @@
 <?php
 
-require_once('vendor/autoload.php');
+require_once('../../../vendor/autoload.php');
 
 use DesignPatterns\AbstractFactory\Conceptual\AbstractFactory;
 use DesignPatterns\AbstractFactory\Conceptual\ConcreteFactories\ConcreteFactory1;
