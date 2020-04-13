@@ -7,7 +7,7 @@ use DesignPatterns\strategy\Conceptual\Strategies\ConcreteStrategyA;
 use DesignPatterns\strategy\Conceptual\Strategies\ConcreteStrategyB;
 
 /**
- * The client code picks a concrete strategy and passes it to the context. The
+ * The client code picks a concrete Strategy and passes it to the context. The
  * client should be aware of the differences between strategies in order to make
  * the right choice.
  */

@@ -8,7 +8,7 @@ use Exception;
 
 /**
  * Class DateComparator
- * @package DesignPatterns\strategy\ExampleComparator\Strategies
+ * @package DesignPatterns\Strategy\ExampleComparator\Strategies
  * @author Kennit Ruz <kruz@merqueo.com>
  */
 class DateComparator implements Comparator

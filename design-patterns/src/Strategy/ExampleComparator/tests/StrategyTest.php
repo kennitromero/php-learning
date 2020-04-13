@@ -9,7 +9,7 @@ use PHPUnit\Framework\TestCase;
 
 /**
  * Class StrategyTest
- * @package DesignPatterns\strategy\ExampleComparator\Tests
+ * @package DesignPatterns\Strategy\ExampleComparator\Tests
  * @author Kennit Ruz <kruz@merqueo.com>
  */
 class StrategyTest extends TestCase

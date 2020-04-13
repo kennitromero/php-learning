@@ -6,7 +6,7 @@ use DesignPatterns\Strategy\Conceptual\Strategy;
 
 /**
  * Class ConcreteStrategyA
- * @package DesignPatterns\strategy\Conceptual\Strategies
+ * @package DesignPatterns\Strategy\Conceptual\Strategies
  * @author Kennit Ruz <kruz@merqueo.com>
  */
 class ConcreteStrategyA implements Strategy

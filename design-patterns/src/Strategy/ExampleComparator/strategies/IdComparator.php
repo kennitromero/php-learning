@@ -6,7 +6,7 @@ use DesignPatterns\strategy\ExampleComparator\Comparator;
 
 /**
  * Class IdComparator
- * @package DesignPatterns\strategy\ExampleComparator\Strategies
+ * @package DesignPatterns\Strategy\ExampleComparator\Strategies
  * @author Kennit Ruz <kruz@merqueo.com>
  */
 class IdComparator implements Comparator

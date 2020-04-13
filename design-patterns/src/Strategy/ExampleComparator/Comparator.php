@@ -4,7 +4,7 @@ namespace DesignPatterns\strategy\ExampleComparator;
 
 /**
  * Interface Comparator
- * @package DesignPatterns\strategy\ExampleComparator
+ * @package DesignPatterns\Strategy\ExampleComparator
  * @author Kennit Ruz <kruz@merqueo.com>
  */
 interface Comparator

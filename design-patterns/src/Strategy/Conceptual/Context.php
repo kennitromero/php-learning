@@ -15,7 +15,7 @@ class Context
 {
     /**
      * @var Strategy The Context maintains a reference to one of the Strategy
-     * objects. The Context does not know the concrete class of a strategy. It
+     * objects. The Context does not know the concrete class of a Strategy. It
      * should work with all strategies via the Strategy interface.
      *
      * El Contexto mantiene una referencia a uno de los objetos de la Estrategia.
@@ -25,7 +25,7 @@ class Context
     private $strategy;
 
     /**
-     * Usually, the Context accepts a strategy through the constructor, but also
+     * Usually, the Context accepts a Strategy through the constructor, but also
      * provides a setter to change it at runtime.
      *
      * Normalmente, el Contexto acepta una estrategia a través del constructor,
@@ -59,7 +59,7 @@ class Context
     {
         // ...
 
-        echo "Context: Sorting data using the strategy (not sure how it'll do it)\n";
+        echo "Context: Sorting data using the Strategy (not sure how it'll do it)\n";
         // Contexto: Clasificar los datos usando la estrategia (no estoy seguro de cómo lo hará)
 
         $result = $this->strategy->doAlgorithm(["a", "b", "c", "d", "e"]);
